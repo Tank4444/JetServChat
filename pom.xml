@@ -14,6 +14,7 @@
         <xerialJdbc.version>3.16.1</xerialJdbc.version>
         <jetty.version>9.4.5.v20170502</jetty.version>
         <jettyJsp.version>9.2.21.v20170120</jettyJsp.version>
+        <jsonGoogle.version>1.1.1</jsonGoogle.version>
     </properties>
 <dependencies>
     <!--Логгер-->
@@ -72,6 +73,20 @@
         <artifactId>jetty-jsp</artifactId>
         <version>${jettyJsp.version}</version>
     </dependency>
+    <!-- Google JSON -->
+    <dependency>
+        <groupId>com.googlecode.json-simple</groupId>
+        <artifactId>json-simple</artifactId>
+        <version>${jsonGoogle.version}</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-util -->
+    <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-util</artifactId>
+        <version>${jetty.version}</version>
+    </dependency>
+
+
 
 </dependencies>
 
